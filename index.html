@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&family=Yatra+One&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="main">
-        <h1>Text<i class="ri-arrow-right-line"></i>Emoji</h1>
+        <h1>Text<i class="ri-arrow-left-right-fill"></i>Emoji</h1>
         <div id="endec-div">
             <h3 id="encrp-btn"><i class="ri-lock-line"></i>Encrypt Text</h3>
             <h3 id="decrp-btn"><i class="ri-lock-unlock-line"></i>Decrypt Emoji</h3>
@@ -18,14 +22,14 @@
             <h5>1. Type a Message</h5>
             <textarea placeholder="Write any text to encrypt" name="" id="txtmsg" cols="30" rows="10"></textarea>
             <h5>2. Set a Password</h5>
-            <input type="password" name="" id="password">
+            <input  placeholder="Eg. 1234" type="password" name="" id="password">
             <button id="encrp-text-btn"><i class="ri-lock-line"></i>Encrypt Text</button>
         </div>
         <div id="decryption">
             <h5>1. Paste encrypted emojis</h5>
             <textarea placeholder="Paste encrypted emojis here" name="" id="txtmsg" cols="30" rows="10"></textarea>
             <h5>2. Type a Password</h5>
-            <input type="password" name="" id="finalPassword">
+            <input placeholder="Eg. 1234" type="password" name="" id="finalPassword">
             <button id="decrp-text-btn"><i class="ri-lock-unlock-line"></i>Decrypt Emoji</button>
         </div>
     </div>
