@@ -1,16 +1,181 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: gilroy;
-    color: white;
+    font-family: 'PT Mono', monospace;
+    /* font-family: 'Yatra One', cursive; */
+    color: #fff;
 }
-html,body{
+html,
+body {
     height: 100%;
     width: 100%;
 }
+
 #main{
-    height: 100%;
+    min-height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: #111;
+    padding: 10vh 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#main>h1{
+    font-family: 'Yatra One', cursive;
+    font-size: 3.5vw;
+    display: flex;
+    align-items: center;
+}
+#main>h1 i{
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    font-size: 2vw;
+}
+#main #endec-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #222;
+    border-radius: 10px;
+    padding: .5vw .5vw;
+    width: 28%;
+    margin: 3vw 0;
+}
+#endec-div h3{
+    font-size: 1.2vw;
+    display: flex;
+    border-radius: 8px;
+    font-weight: 500;
+    align-items: center;
+    cursor: pointer;
+    padding: 1vw 1vw;
+    transition: 0.3s ease;
+}
+#encrp-btn{
+    background-color: #333;
+}
+#endec-div h3 i{
+    display: flex;
+    align-items: center;
+    margin-right: .7vw;
+    font-size: 1.2vw;
+}
+#encryption{
+    width: 45%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#encryption h5{
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: #6e6e6e;
+    margin-bottom: 13px;
+}
+#encryption textarea{
+    width: 100%;
+    height: 6vw;
+    border: 1px solid #343434;
+    padding: 10px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    font-size: 1.2vw;
+    outline: none;
+    background-color: #1C1C1C;
+}
+#encryption textarea::placeholder{
+    opacity: .6;
+}
+#encryption input{
+    width: 100%;
+    border: 1px solid #343434;
+    padding: 10px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    font-size: 1.2vw;
+    outline: none;
+    background-color: #1C1C1C;
+}
+#encryption input::placeholder{
+    opacity: .6;
+}
+
+#encryption button{
+    display: flex;
+    align-items: center;
+    color: #6e6e6e;
+    background-color: #1C1C1C;
+    border: none;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: #eee;
+    font-size: 1.3vw;
+}
+button i{
+    font-size: 1.3vw;
+    margin-right: 10px;
+}
+
+#decryption{
+    width: 45%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-around;
+    display: none;
+}
+
+#decryption h5{
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: #6e6e6e;
+    margin-bottom: 13px;
+}
+#decryption textarea{
+    width: 100%;
+    height: 6vw;
+    border: 1px solid #343434;
+    padding: 10px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    font-size: 1.2vw;
+    outline: none;
+    background-color: #1C1C1C;
+}
+#decryption textarea::placeholder{
+    opacity: .6;
+}
+#decryption input{
+    width: 100%;
+    border: 1px solid #343434;
+    padding: 10px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    font-size: 1.2vw;
+    outline: none;
+    background-color: #1C1C1C;
+}
+#decryption input::placeholder{
+    opacity: .6;
+}
+
+#decryption button{
+    display: flex;
+    align-items: center;
+    color: #6e6e6e;
+    background-color: #1C1C1C;
+    border: none;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: #eee;
+    font-size: 1.3vw;
 }
