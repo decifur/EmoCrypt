@@ -33,6 +33,7 @@ body {
     display: flex;
     align-items: center;
     font-size: 2vw;
+    transition: .5s ease;
 }
 #main #endec-div{
     display: flex;
@@ -178,4 +179,15 @@ button i{
     border-radius: 10px;
     color: #eee;
     font-size: 1.3vw;
+}
+
+#result{
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #1C1C1C;
+    border: 1px solid #343434;
+    width: 45%;
+    display: none;
+    margin-top: 40px;
 }
