@@ -11,5 +11,3 @@ The following technologies and tools were used to build this project:
 * HTML
 * CSS
 * JavaScript
-
-Employed Unicode mapping for accurate translation between characters and emojis.  
