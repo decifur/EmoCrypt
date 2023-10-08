@@ -3,6 +3,8 @@ Developed EmoCrypt, a user-friendly web application that enables users to transf
 
 ## Demo
 
+LINK - https://decifur.github.io/EmoCrypt/
+
 https://github.com/decifur/EmoCrypt/assets/90095692/df4548c8-6307-4f56-9b25-e2dc69841eda
 
 ## Technologies Used
